@@ -46,28 +46,25 @@ const getInfo = async(event) =>{
     }
 }
 
- <script>
-
-      const getcurrentDay = () => {
-        let weekday = new Array(7);
-         weekday[0] = "Sunday";
-         weekday[1] = "Monday";
-         weekday[2] = "Tuesday";
-         weekday[3] = "Wednesday";
-         weekday[4] = "Thursday";
-         weekday[5] = "Friday";
-         weekday[6] = "Saturday";
-
-        let currentTime = new Date();
-        days = weekday[currentTime.getDay()];
-        let day = document.getElementById('day');
-
-        day.innerText = days;
-
-      }
-
-      getcurrentDay();
-    </script>
-   
-
 submitBtn.addEventListener('click', getInfo);
+
+const getcurrentDay = () => {
+    let weekday = new Array(7);
+     weekday[0] = "Sunday";
+     weekday[1] = "Monday";
+     weekday[2] = "Tuesday";
+     weekday[3] = "Wednesday";
+     weekday[4] = "Thursday";
+     weekday[5] = "Friday";
+     weekday[6] = "Saturday";
+    let currentTime = new Date();
+    days = weekday[currentTime.getDay()];
+    let day = document.getElementById('day');
+    day.innerText = days;
+    const month = ["JAN","FEB","MAR","APR","MAR","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+    const d = new Date();
+    let m = month[d.getMonth()];
+    let date = document.getElementById('today_data');
+    date.innerText = d.getDate()+" "+ m;
+}
+getcurrentDay();
