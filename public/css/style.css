@@ -232,6 +232,8 @@ footer{
     width: 100%;
     background-color: var(--main-bg);
     margin: auto;
+    position: absolute;
+    bottom: 0px;
 }
 
 footer p{
