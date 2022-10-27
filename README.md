@@ -16,7 +16,7 @@ To start contributing, follow the below guidelines:
 
 **1.**  **Star** and **Fork** [this](https://github.com/neomoron/weather-forcasting) repository.
 
-s**2.**  Clone your forked copy of the project.
+**2.**  Clone your forked copy of the project.
 ```
 git clone https://github.com/neomoron/weather-forcasting.git
 ```
