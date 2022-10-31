@@ -34,6 +34,7 @@ html{
 
 .main_menu {
     background-color: var(--main-bg);
+    background-image: url(https://hacktoberfest.com/_next/static/media/sparkle.57c3794f.gif); 
     
 }
 
@@ -246,6 +247,7 @@ footer{
     width: 100%;
     background-color: var(--main-bg);
     margin: auto;
+    background-image: url(https://hacktoberfest.com/_next/static/media/sparkle.57c3794f.gif); 
 }
 
 footer p{
